@@ -9,20 +9,28 @@
   </head>
   <body>
     <form action="my-server-file.php" id="myForm" name="myForm" enctype="multipart/form-data">
-      
-           <!-- text field-->
-        <label for="first-name">First Name</label>
+      <!-- text field-->
+      <label for="first-name">First Name</label>
       <input type="text" name="fName" id="first-name" required />
+      <br />
 
       <!-- drop-down menu-->
-       <label for="color">Choose a color</label>
-       <select name="colors" id="colors" required>
+      <label for="colors">Choose a color</label>
+      <select name="colors" id="colors" required>
         <option value="">Select</option>
         <option value="White">White</option>
         <option value="Red">Red</option>
         <option value="Blue">Blue</option>
         <option value="Purple">Purple</option>
         <option value="Yellow">Yellow</option>
+      </select>
+
+      <!-- radio button-->
+      <input type="radiot" name="myDecision" id="myRadio" value="Yes" />Yes<br />
+      <input type="radiot" name="myDecision" id="myRadio" value="No" />No
+      <br />
+
+      <input type="submit" value="Submit Form" id="submit" />
     </form>
 
     <script src="js/form.js"></script>
