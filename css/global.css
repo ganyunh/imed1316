@@ -12,13 +12,13 @@
 :root {
 
 /* var(--primaryColor) !important; */
---primaryColor: #425461;
+--primaryColor: #d1b4cc;
 
 /* var(--secondaryColor) !important; */
---secondaryColor: #676798;
+--secondaryColor: #a17c9b;
 
 /* var(--accentColor) !important; */
---accentColor: #3A5555;
+--accentColor: #342d33;
 
 /* var(--fontFamily) !important; */
 --fontFamily: "Bitcount Prop Single Ink", system-ui;
