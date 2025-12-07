@@ -3,89 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Schedule</title>
+    <title>Jirai Princess Project — Schedule</title>
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome CDN CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- Local CSS -->
+    <link href="css/schedule.css" rel="stylesheet" />
+
+    <style>
+      h1 {
+        display: none;
+      }
+    </style>
   </head>
+
   <body>
-    <!-- unordered list -->
-    <ul type="disc">
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-    </ul>
+    <!-- begin header -->
+    <header-component></header-component>
+    <!-- end header -->
 
-    <!-- ordered list -->
-    <ol type="i">
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-    </ol>
+    <main>
+      <div class="wrapper-body">
+        <div class="wrapper-main">
+          <div class="wrapper-content">
+            <h2>Jirai Princess Schedule</h2>
+            <p>Welcome to the official schedule for the <strong>Jirai Princess Project</strong>. Here you can see upcoming meetup dates, photoshoot windows, content deadlines, and soft-girl sessions designed to help you express your sweetest and stormiest sides. Everything here is updated weekly, so check back often for new opportunities.</p>
 
-    <!-- nested list -->
-    <ol type="i">
-      <li>Item 1</li>
-      <li>
-        Item 2
-        <ul type="disc">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-        </ul>
-      </li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-    </ol>
+            <ol type="i">
+              <li>Weekly group photoshoot sessions</li>
+              <li>
+                Skill workshops
+                <ul type="disc">
+                  <li>Makeup practice (teary-eye styles)</li>
+                  <li>Aesthetic posing basics</li>
+                  <li>Soft-goth accessory crafting</li>
+                  <li>Vibe setting & moodboard building</li>
+                </ul>
+              </li>
+              <li>Community events</li>
+              <li>Content submission deadlines</li>
+            </ol>
+          </div>
 
-    <table class="table" border="1">
-      <thead>
-        <tr>
-          <th>Heading 1</th>
-          <th>Heading 2</th>
-          <th>Heading 3</th>
-          <th>Heading 4</th>
-        </tr>
-      </thead>
+          <table class="content-table">
+            <thead>
+              <tr>
+                <th>Times</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+              </tr>
+            </thead>
 
-      <tbody>
-        <tr>
-          <td>Content 1</td>
-          <td>Content 2</td>
-          <td>Content 3</td>
-          <td>Content 4</td>
-        </tr>
+            <tbody>
+              <tr>
+                <td>10am–12pm</td>
+                <td>Open Studio</td>
+                <td>—</td>
+                <td>Makeup Lab</td>
+                <td>—</td>
+                <td>Mini Shoot</td>
+                <td>Open Studio</td>
+                <td>Rest Day</td>
+              </tr>
 
-        <tr>
-          <td>Content 1</td>
-          <td>Content 2</td>
-          <td>Content 3</td>
-          <td>Content 4</td>
-        </tr>
+              <tr>
+                <td>1pm–3pm</td>
+                <td>—</td>
+                <td>Soft Posing Workshop</td>
+                <td>—</td>
+                <td>Aesthetic Editing Class</td>
+                <td>—</td>
+                <td>Group Session</td>
+                <td>—</td>
+              </tr>
 
-        <tr>
-          <td>Content 1</td>
-          <td>Content 2</td>
-          <td>Content 3</td>
-          <td>Content 4</td>
-        </tr>
+              <tr>
+                <td>4pm–6pm</td>
+                <td>Community Chat</td>
+                <td>Open Studio</td>
+                <td>—</td>
+                <td>Mini Shoot</td>
+                <td>—</td>
+                <td>—</td>
+                <td>Rest Day</td>
+              </tr>
+            </tbody>
+          </table>
 
-        <tr>
-          <td>Content 1</td>
-          <td>Content 2</td>
-          <td>Content 3</td>
-          <td>Content 4</td>
-        </tr>
-      </tbody>
+          <div class="wrapper-content">
+            <h2>How to Join</h2>
+            <p>Whether you're brand new to the jirai aesthetic or already living your soft-storm life, we welcome you. Choose whether you want to participate in sessions or volunteer to help manage events, assist other members, or contribute creative skills.</p>
 
-      <tfoot>
-        <tr>
-          <td>Footer 1</td>
-          <td>Footer 2</td>
-          <td>Footer 3</td>
-          <td>Footer 4</td>
-        </tr>
-      </tfoot>
-    </table>
+            <a href="https://jirai-princess-project.netlify.app/schedule" class="btn btn-dark me-2" target="_blank"> View Full Schedule </a>
+
+            <a href="https://jirai-princess-project.netlify.app/form" class="btn btn-dark" target="_blank"> Volunteer </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- begin footer -->
+    <footer-component></footer-component>
+    <!-- end footer -->
+
+    <section>
+      <!-- Bootstrap CDN JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Local JS File with Header -->
+      <script src="components/js/header.js"></script>
+
+      <!-- Local JS File with Footer -->
+      <script src="components/js/footer.js"></script>
+    </section>
   </body>
 </html>
