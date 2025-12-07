@@ -7,7 +7,7 @@ h1, h2 {
 }
 
 .blinn-footer-container {
-    background-color: var(--secondaryColor) !important;
+    background-color: var(--primaryColor) !important;
     padding: 40px;
     color: #ffffff;
 }
