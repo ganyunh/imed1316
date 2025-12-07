@@ -30,7 +30,7 @@ p {
 }
 
 .blinn-fa-container {
-    background-color: var(--primaryColor) !important;
+    background-color: var(--accentColor) !important;
     padding: 50px;
 }
 
