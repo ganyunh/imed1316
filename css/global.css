@@ -18,6 +18,9 @@
   /* var(--accentColor) !important; */
   --accentColor: #342d33;
 
+    /* var(--secondAccentColor) !important; */
+  --secondAccentColor: #ffffff;
+
   /* var(--fontFamily) !important; */
   --fontFamily: "Bitcount Prop Single Ink", system-ui;
 }
@@ -27,7 +30,7 @@
 /* -------------------------------------- */
 
 body {
-  color: var(--accentColor) !important;
+  color: var(--secondAccentColor) !important;
   font-family: var(--fontFamily);
 }
 
