@@ -33,6 +33,10 @@ body {
   color: var(--secondAccentColor) !important;
   font-family: var(--fontFamily);
 }
+footer, footer * {
+  color: #000 !important;   /* black text */
+}
+
 
 /* optional: make all headings inherit the same color */
 h1, h2, h3, h4, h5, h6, p, li, a, span {
