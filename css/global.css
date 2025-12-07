@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 /* Colors */
 
 /*
@@ -10,17 +9,29 @@
 */
 
 :root {
+  /* var(--primaryColor) !important; */
+  --primaryColor: #d1b4cc;
 
-/* var(--primaryColor) !important; */
---primaryColor: #d1b4cc;
+  /* var(--secondaryColor) !important; */
+  --secondaryColor: #a17c9b;
 
-/* var(--secondaryColor) !important; */
---secondaryColor: #a17c9b;
+  /* var(--accentColor) !important; */
+  --accentColor: #342d33;
 
-/* var(--accentColor) !important; */
---accentColor: #342d33;
+  /* var(--fontFamily) !important; */
+  --fontFamily: "Bitcount Prop Single Ink", system-ui;
+}
 
-/* var(--fontFamily) !important; */
---fontFamily: "Bitcount Prop Single Ink", system-ui;
+/* -------------------------------------- */
+/* MAKE ALL TEXT USE ACCENT COLOR */
+/* -------------------------------------- */
 
+body {
+  color: var(--accentColor) !important;
+  font-family: var(--fontFamily);
+}
+
+/* optional: make all headings inherit the same color */
+h1, h2, h3, h4, h5, h6, p, li, a, span {
+  color: var(--accentColor) !important;
 }
