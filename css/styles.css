@@ -3,7 +3,7 @@
 
 
 .carousel-caption {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.7);
     color: #000000 !important;
   }
   
@@ -30,7 +30,7 @@ p {
 }
 
 .blinn-fa-container {
-    background-color: var(--secondaryColor) !important;
+    background-color: var(--primaryColor) !important;
     padding: 50px;
 }
 
